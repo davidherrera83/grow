@@ -4,7 +4,6 @@
   "description": "Automation project using JS",
   "main": "index.js",
   "scripts": {
-
     "cypress:open": "cypress open",
     "test": "test"
   },
@@ -23,5 +22,8 @@
   "homepage": "https://github.com/davidherrera83/grow#readme",
   "devDependencies": {
     "cypress": "^2.1.0"
+  },
+  "dependencies": {
+    "hoek": "^5.0.3"
   }
 }
