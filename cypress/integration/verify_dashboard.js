@@ -18,7 +18,7 @@ describe('Verify all dashboards are listed', () => {
             cy.get("[href='/settings/dashboards']").click();
             cy.get("[class*='dashboards---userListContainer']").contains('Sales Dashboard').click();
         // Assert - make assertion
-        // - Assert dashboard count in settings matches count in the dashboard
+        // - Assert dashboard count in settings matches count of tiles in the dashboard
             cy.get("[class*='individualDashboard---detail']").contains(count);
         });
     });
