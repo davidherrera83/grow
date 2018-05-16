@@ -1,0 +1,27 @@
+{
+  "name": "grow_project",
+  "version": "1.0.0",
+  "description": "Automation project using JS",
+  "main": "index.js",
+  "scripts": {
+
+    "cypress:open": "cypress open",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidherrera83/grow.git"
+  },
+  "keywords": [
+    "grow"
+  ],
+  "author": "David Herrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidherrera83/grow/issues"
+  },
+  "homepage": "https://github.com/davidherrera83/grow#readme",
+  "devDependencies": {
+    "cypress": "^2.1.0"
+  }
+}
