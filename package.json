@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/davidherrera83/grow#readme",
   "devDependencies": {
-    "cypress": "^12.7.0"
+    "cypress": "^13.6.1"
   },
   "dependencies": {
     "hoek": "^5.0.3"
